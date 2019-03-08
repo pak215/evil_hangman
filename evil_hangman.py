@@ -94,7 +94,7 @@ class PuzzleState :
 if __name__ == "__main__" :
 	word_list = load_words()
 	print "I hear you're the worst Hangman player ever."
-	print "I bet you couldn't win a game in 15 guesses!"
+	print "I bet you couldn't win a game with 15 chances!"
 
 	length = 0
 	length = random.randint(3, 8)
